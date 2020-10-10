@@ -1,0 +1,13 @@
+$bg-color: #ec9090;
+
+body {
+  background: $bg-color;
+}
+
+nav {
+  li {
+    a {
+      background: green;
+    }
+  }
+}

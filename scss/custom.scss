@@ -1,0 +1,84 @@
+//customzing
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: gainsboro;
+}
+.navbar {
+  font-weight: 100;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+
+  .nav-item {
+    .nav-link {
+      color: gainsboro;
+    }
+  }
+  #experience {
+    .card {
+      background-color: #36b3a8;
+    }
+  }
+  .navbar-brand h3 {
+    font-weight: 180;
+    color: gainsboro;
+  }
+}
+
+.nav-item {
+  font-size: 1rem;
+}
+.nav-link:hover {
+  transition: border-bottom 1.2s;
+  border-bottom: 1px solid white;
+}
+
+#showcase {
+  background: url("../images/nature\ 2.jpg") bottom center / cover no-repeat;
+  background-attachment: fixed;
+  min-height: 750px;
+  position: relative;
+  #header {
+    z-index: 2;
+  }
+  #overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  h1 {
+    font-family: "Questrial", sans-serif;
+    line-height: 1;
+  }
+  #book {
+    font-size: 1.5rem;
+    border-radius: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    background: #1f1f1f;
+  }
+  .nav-link:hover {
+    border-bottom: none;
+  }
+  #showcase {
+    min-height: 400px;
+    h1 {
+      font-size: 4rem;
+    }
+  }
+}
+#quotes {
+  i {
+    opacity: 0.3;
+  }
+}
